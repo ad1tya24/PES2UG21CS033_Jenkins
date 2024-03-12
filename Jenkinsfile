@@ -11,7 +11,7 @@ pipeline
       sh 'g++ text.cpp -o output'
      }
    }
-
+|
 stage('Test')
 {
 steps
