@@ -3,7 +3,7 @@ pipeline
  agent any
  stages
  {
-   stage('Build)
+   stage('Build')
    {
     steps
      {
@@ -11,7 +11,6 @@ pipeline
       sh 'g++ text.cpp -o output'
      }
    }
-|
 stage('Test')
 {
 steps
